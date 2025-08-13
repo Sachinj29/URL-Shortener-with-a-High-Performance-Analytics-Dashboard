@@ -1,22 +1,35 @@
-# URL Shortener & Analytics Platform Backend
+# 🔗 URL Shortener & Analytics Platform Backend
 
-This project is a robust, high-performance backend for a URL shortening service, built with the Spring Boot ecosystem. It goes beyond simple redirection by including a powerful analytics engine to track link performance, making it a comprehensive tool for managing and understanding web traffic.
+![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.1.5-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-Secure-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-4.0.0-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-Clean-005571?style=for-the-badge&logo=swagger&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-API_Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
-The entire backend is exposed via a clean REST API, designed to be consumed by any front-end client or testing tool like Postman.
+---
 
-***
+## 📖 Overview
+
+A **high-performance** backend for a **URL shortening service** with **real-time analytics**.  
+This project is more than just redirection—it’s a complete analytics solution that helps track link performance, clicks, and traffic patterns.  
+Built with **Spring Boot** and **PostgreSQL**, it follows a clean **layered architecture** for scalability and maintainability.  
+
+---
 
 ## ✨ Features
 
-*   **User Authentication**: Secure user registration and login using JWT (JSON Web Tokens).
-*   **URL Shortening**: Generate unique, short codes for any long URL.
-*   **High-Throughput Redirection**: Near-instantaneous redirection from short URLs to their original destinations.
-*   **Asynchronous Click Tracking**: Captures detailed click data (IP address, user agent, referrer) without slowing down the user redirection.
-*   **Analytics Dashboard API**: Endpoints to retrieve performance data for each link, including total clicks.
-*   **Scheduled Data Aggregation**: A background job to process raw click data into summarized, easy-to-read analytics (placeholder for full implementation).
-*   **Role-Based Authorization**: Ensures users can only manage and view analytics for their own links.
+- 🔐 **User Authentication** – Secure registration & login with **JWT**.  
+- ✂️ **URL Shortening** – Generate unique, short codes for any long URL.  
+- ⚡ **High-Throughput Redirection** – Instant redirect to the original URL.  
+- 📊 **Asynchronous Click Tracking** – Store IP, user-agent, and referrer without slowing redirection.  
+- 📈 **Analytics Dashboard API** – Fetch total clicks & other performance metrics.  
+- ⏳ **Scheduled Data Aggregation** – Background job for summarized analytics.  
+- 🛡 **Role-Based Authorization** – Users can only manage & view their own links.  
 
-***
+---
 
 ## 🛠️ Tech Stack
 
