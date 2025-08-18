@@ -1,7 +1,5 @@
 package com.sachin.URL_Shortener.security;
 
-
-
 import com.sachin.URL_Shortener.model.entity.User;
 import com.sachin.URL_Shortener.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
